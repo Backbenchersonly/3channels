@@ -47,7 +47,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 # TRUE for yes FALSE if no 
 TOKEN = False if os.environ.get('TOKEN', "True") == "True" else False 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "4943e4169c0683d4df1dc7a557dfc743d4bbf25d")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Backbencherskabackupchannel/10")
